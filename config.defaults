@@ -1,0 +1,3 @@
+STATUS_FILE='./slave_check_status.txt'
+suppression_file='./slave_check_suppress_emails.txt'
+log_file='./slave_check_log.txt'
