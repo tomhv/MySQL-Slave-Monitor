@@ -7,8 +7,8 @@
 # @since  2011-06-24
 
 # Load config files
-source config.defaults
-source config.local
+source $HOME/mysql-slave-monitor/config.defaults
+source $HOME/mysql-slave-monitor/config.local
 
 for i in {1..9}
 do

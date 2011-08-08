@@ -8,8 +8,8 @@
 # @since  2011-07-11
 
 # Load config files
-source config.defaults
-source config.local
+source $HOME/mysql-slave-monitor/config.defaults
+source $HOME/mysql-slave-monitor/config.local
 
 SECONDS=`echo "SHOW SLAVE STATUS\G" | mysql -u $SLAVE_USER -p$SLAVE_PASSWORD -h $SLAVE_HOST | grep Seconds_Behind_Master | awk '{ print $2 }'`
 
