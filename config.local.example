@@ -1,1 +1,7 @@
+# A MySQL use who has slave access to the slave database server
+SLAVE_HOST="127.0.0.1"
+SLAVE_USER="my_user"
 SLAVE_PASSWORD="my_password"
+
+# The emails of people to whom to send email alerts
+ERROR_EMAIL_RECIPIENTS="user@example.com antojher.user@example.com"

@@ -1,3 +1,15 @@
+# A file containing the current status of the replication
+# If everything is going ok, it shouls just contain the string "OK"
 STATUS_FILE='./slave_check_status.txt'
-suppression_file='./slave_check_suppress_emails.txt'
-log_file='./slave_check_log.txt'
+
+# The OK status of the system
+STATUS_OK="OK"
+
+# If this file exists, emails will not be sent out
+EMAIL_SUPPRESSION_FILE='./slave_check_suppress_emails.txt'
+
+# The main log file
+LOG_FILE="/var/log/mysql_slave.log"
+
+# The label in the log to describe the number of seconds the slave is behind the master
+SECONDS_BEHIND_LABEL="Number of seconds slave is behind master"
