@@ -4,7 +4,7 @@
 # This script monitors the number or seconds the slave is behind the master and
 # writes it to the main log
 #
-# @author Tom Haskins-Vaughan <tomh@janeiredale.com>
+# @author Tom Haskins-Vaughan <tomhv@janeiredale.com>
 # @since  2011-07-11
 
 # Load config files
