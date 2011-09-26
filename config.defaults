@@ -1,12 +1,12 @@
 # A file containing the current status of the replication
 # If everything is going ok, it shouls just contain the string "OK"
-STATUS_FILE='./slave_check_status.txt'
+STATUS_FILE=$HOME/mysql-slave-monitor/slave_check_status.txt
 
 # The OK status of the system
 STATUS_OK="OK"
 
 # If this file exists, emails will not be sent out
-EMAIL_SUPPRESSION_FILE='./slave_check_suppress_emails.txt'
+EMAIL_SUPPRESSION_FILE=$HOME/mysql-slave-monitor/slave_check_suppress_emails.txt
 
 # The main log file
 LOG_FILE="/var/log/mysql_slave.log"
